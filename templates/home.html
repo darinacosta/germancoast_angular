@@ -1,0 +1,30 @@
+<div ng-controller="homeCtrl" id="home" class="tab-pane active scrollflip-content">
+  <div class="vignette-header">
+    <h1>The German Coast</h1>
+    <h2>Geographies of Southwestern Lake Pontchartrain & Beyond</h2>
+  </div>
+  <hr>
+     <p class="emphasis">
+       <span style="font-size:25px">T</span>he southwestern rim of Louisiana's Lake Pontchartrain is a complex mosaic of denuded swamplands, oil infrastructure, and highway sprawl. This application hosts a series of interrelated multi-media vignettes that provide a tour of the region and emphasize its unique 
+       geographic features. 
+      <p>
+        As you make your way through the app, you'll come across <a class="geometry-link" ng-click='switchLocation("ej")'>highlighted links</a>. Click on these to trigger events in the application, such as adding layers to the map, revealing images, or opening pop-ups. 
+      </p>
+      </p>
+       Please begin by observing a few of the broader characteristics of the River Parish landscape, such as  
+       the <a class="geometry-link" id="parishline-geofeature-event">stark divide between swamp and suburb</a> along the St. Charles/Jefferson parish line;
+       <a class="geometry-link" id="erosion-geofeature-event">saltwater erosion</a> along the shores of the lake; residential areas that extend
+       into <a class="geometry-link" id="suburb-geofeature-event">precarious floodplains</a>;
+       and the telltale <a class="geometry-link" id="radial-geofeature-event">radial canals</a> of cypress logging.
+     <p>
+     <div id="development-section">
+          <h3 id="dev-notes">Development Notes</h3>
+          <p>This application is a work in progress, and is best viewed in <a class="external-link" href="http://www.google.com/chrome/" target="_blank">Google Chrome</a> or <a class="external-link" href="https://www.mozilla.org/en-US/firefox/new/" target="_blank">Firefox</a>. Support for mobile devices is limited, but improvements are coming soon. Not all vignettes are available, and those that are may not be complete. Refer to the "Updates" section for production notes, and check back regularly. We're adding new features and content all the time.</p>
+          <h3>Attribution & Citations</h3> 
+          Visit our <a class="external-link video-link" href='./assets/html/bibliography.html'>Attribution & Citations</a> page for shoutouts and works cited.
+          <h3>Questions or feedback?</h3> 
+          <p>Contact us at <a class="external-link" href="mailto:airlinehighwayproject@gmail.com">airlinehighwayproject@gmail.com</a>.</p>
+          <h3>Updates</h3>
+          <div id='production-log' style="max-height:75px; overflow-y:scroll;margin-bottom:20px;"></div>
+     </div>
+</div>

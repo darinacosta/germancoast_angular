@@ -1,0 +1,24 @@
+<html>
+<head>
+  <meta property="og:type" content="website" />
+  <html prefix="og: http://ogp.me/ns#">
+  <link rel="shortcut icon" href="http://verylongroad.com/media/i/factory.png">
+  <meta name="title" content="Airline">
+  <meta name="description" content="An interactive multi-media exploration of Louisiana's German Coast region, including maps of petrochemical facilities, environmental justice histories, and more.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <script data-main="main.js" src="require.js"></script>
+
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="assets/style/style.css" rel="stylesheet" media="screen">
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.css">
+</head>
+<body>
+  <div  ng-controller="mapCtrl">
+    <leaflet center="germancoast" defaults="defaults" height="100%" width="100%"></leaflet>
+  </div>
+  <div class="map-tab-content scrollflip">
+    <div ng-view></div>
+  </div>
+</body>
+</html>
