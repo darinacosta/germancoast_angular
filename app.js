@@ -6,9 +6,9 @@ define(['angularAMD', 'leaflet', 'angularRoute', 'angularLeafletDirective'],
     app.config(function ($routeProvider) {
       $routeProvider
       .when("/home", angularAMD.route({
-          /*controller: 'mapCtrl', 
-          controllerUrl: 'templates/sidebar.html',*/
-          templateUrl: 'templates/home.html'
+          controller: 'homeCtrl', 
+          controllerUrl: 'components/home/homeCtrl.js',
+          templateUrl: 'components/home/home.html'
       }))
       .otherwise({redirectTo: "/"});
     })
@@ -28,14 +28,23 @@ define(['angularAMD', 'leaflet', 'angularRoute', 'angularLeafletDirective'],
 
     app.controller('homeCtrl',  [ "$scope",  "leafletData", function($scope, leafletData) {
 
-      $scope.showLeaflet = function() {
-          leafletData.getMap().then(function(map) {
-              map.fitBounds([ [40.712, -74.227], [40.774, -74.125] ]);
-          });
-      };
-
       $scope.switchLocation = function(locationKey){
-        console.log(locationKey)
+        leafletData.getMap().then(function(map) {
+          if (locationKey === 'radial-geofeature-event'){
+          map.setView([30.269, -90.377], 15);
+          }else if (event.target.id === 'erosion-geofeature-event'){
+            map.setView([30.046, -90.330], 14);
+          } else if (locationKey === 'ej'){
+            map.setView([29.99958087, -90.414], 14);
+            /*videoEventPopup.setLatLng([29.99958087, -90.397052]);
+            videoEventPopup.setContent(returnVideoString('norco_flaring_v1'));
+            videoEventPopup.openOn(map);*/
+          }else if (event.target.id === 'suburb-geofeature-event'){
+            map.setView([30.088, -90.446], 14);
+          }else if (event.target.id === 'parishline-geofeature-event'){
+            map.setView([30.032, -90.279], 14); 
+          }
+        });
       }
     }]);
 
