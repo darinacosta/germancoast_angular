@@ -29,12 +29,28 @@ define(['angularAMD',
             lng: -90.4008,
             zoom: 11
         },
+
         defaults: {
           zoomControlPosition: 'topright'
+        },
+      layers: {
+        "baselayers": {
+          "xyz": {
+            "name": "OpenStreetMap (XYZ)",
+            "url": "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+            "type": "xyz",
+            "layerParams": {},
+            "layerOptions": {}
+          }
+        },
+        "overlays": {
+          
         }
-      });
-    }]);
+      }
 
-    return angularAMD.bootstrap(app);
+    });
+  }]);
+
+  return angularAMD.bootstrap(app);
 
 });
