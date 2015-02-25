@@ -1,5 +1,19 @@
-define(['app'], function(app){
-  app.controller('homeCtrl',  [ "$scope",  "leafletData", function($scope, leafletData) {
+define(['app', 
+       'services/mapState'], 
+
+function(app){
+
+  app.controller('homeCtrl',  [ "$scope",  "leafletData", "mapState", function($scope, leafletData, mapState) {
+    
+
+    $scope.home = function(){
+      mapState.defaultState({
+        'lat':30.0339,
+        'lng':-90.4008, 
+        'zoom':11
+      });
+    }
+
     $scope.switchLocation = function(locationKey){
       leafletData.getMap().then(function(map) {
         if (locationKey === 'radial'){

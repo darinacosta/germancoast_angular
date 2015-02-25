@@ -14,6 +14,39 @@
   <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.css">
 </head>
 <body>
+  <!--Navigation Menu Full Screen-->
+<ul class="nav nav-tabs main-menu hidden-xs main-menu" ng-controller="menuCtrl" id="tabset" style="position:absolute;top: 0px;width: 100%;">
+  <li class="active">
+    <a data-toggle="tab" class="home-location-button newpage" href="#home"><span class="glyphicon glyphicon-home">
+      </span> GERMAN COAST 
+    </a>
+  </li>
+  <li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#">SWAMP & SUBURB <span class="caret"></span></a>
+    <ul class="dropdown-menu">
+      <li data-toggle="popover"
+      data-content="The cypress swamps and marsh prairies of the LaBranche Wetlands have so far survived the real-estate ventures that have consumed neighboring ecosystems."><a href="#speculation" data-toggle="tab" class="labranche-location-button newpage">Speculation</a></li>
+      <li data-toggle="popover" data-content="A story about a hurricane told through dynamic map events, animation, and film. Featuring an interview with long-time St. Charles Parish resident Donald Tregre, as well as footage from Hurricane Isaac."><a href="#hurricane" data-toggle="tab" class="hurricane-location-button newpage">Hurricane</a></li>
+      <li data-toggle="popover" data-content=""><a class="newpage inactive"><span>Crash</span></a></li>
+    </ul><!-- end of dropdown menu -->
+  </li>
+  <li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#">INDUSTRY & DISASTER <span class="caret"></span></a>
+    <ul class="dropdown-menu">
+      <li data-toggle="popover" data-content="See the spatial patterns that emerge as a product of industrial growth."><a href="#domination" data-toggle="tab" class="norco-location-button newpage">Domination</a></li>
+      <li data-toggle="popover" data-content="Learn about crowd-sourced efforts to hold industry accountable."><a href="#eyewitness" data-toggle="tab" class="eyewitness newpage">Eyewitness</a></li>
+      <li data-toggle="popover" data-content="An exploration of the Shell Oil Refinery explosion of 1988 featuring contemporary news footage and interviews with local residents."><a class="video-link newpage inactive">Explosion <span class="glyphicon glyphicon-film"></span></a></li>
+    </ul><!-- end of dropdown menu -->
+  </li>
+  <li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#">SLAVERY & REVOLT <span class="caret"></span></a>
+    <ul class="dropdown-menu">
+      <li data-toggle="popover" data-content="Explore the pre-industrial plantation lands of the River Parishes."><a href="#plantation-land" data-toggle="tab" class="plantation-location-button newpage">Plantations</a></li>
+      <li><a class="inactive"><i>1811</i></a></li>
+      <li><a class="inactive"><i>Maroon</i></a></li>
+    </ul><!-- end of dropdown menu -->
+  </li>
+</ul>
   <div  ng-controller="mapCtrl">
     <leaflet center="germancoast" defaults="defaults" height="100%" width="100%"></leaflet>
   </div>
