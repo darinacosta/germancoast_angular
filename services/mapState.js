@@ -1,24 +1,30 @@
-define(['app'], function(app){
+define(['app', 'leaflet'], 
+  function(app, L){
 
   return app.factory("mapState", ["leafletData", function (leafletData) {
+    
+    layerControl = L.control.layers(null);
 
-  	
+    leafletData.getMap().then(function(map){
+      layerControl.addTo(map);
+    })
 
-  	  defaultState = function(args){
-      
-	      var lat = args['lat'],
-		        lng = args['lng'],
-		        zoom = args['zoom'],  
-	          clearLayers = args['clearLayerControl'];
+	  defaultState = function(args){
+    
+      var lat = args['lat'],
+	        lng = args['lng'],
+	        zoom = args['zoom'],  
+          clearLayers = args['clearLayerControl'];
+      leafletData.getMap().then(function(map){
+        map.setView([lat, lng], zoom);
+      })
+    };
 
-	      leafletData.getMap().then(function(map) {
-	        map.setView([lat, lng], zoom);
-	      });
-	    }
 
-      return {
-        defaultState: defaultState
-      };
+    return {
+      defaultState: defaultState,
+      layerControl: layerControl
+    };
 
     
 
@@ -36,6 +42,6 @@ define(['app'], function(app){
       $mapHomeButton.on('click', function(){
         map.setView(new L.LatLng(lat, lng), zoom);
       });*/
-    }]);
+  }]);
   
- });
+});

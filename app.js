@@ -1,5 +1,5 @@
 define(['angularAMD', 
-       'leaflet', 
+       'leaflet',
        'angularRoute', 
        'angularLeafletDirective',
        'bootstrap'], 
@@ -22,7 +22,9 @@ define(['angularAMD',
 
     }]);
     
-    app.controller('mapCtrl', ['$scope', function($scope){
+    app.controller('mapCtrl', ['$scope','leafletData', function($scope, leafletData){
+
+
       angular.extend($scope, {
       germancoast: {
             lat: 30.0339,
