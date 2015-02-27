@@ -18,7 +18,6 @@ define(['leaflet',
     // Disable tap handler, if present.
     conigureMap = (function(){
       if (map.tap) map.tap.disable();
-      baseMap.addTo(map);
       map.on('click', function(e) {
         console.log(e.latlng);
       });

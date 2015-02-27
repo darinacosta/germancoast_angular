@@ -10,16 +10,22 @@ define(['angularAMD',
     app.config(function ($routeProvider) {
       $routeProvider
       .when("/home", angularAMD.route({
-          controller: 'homeCtrl', 
-          controllerUrl: 'components/home/homeCtrl.js',
-          templateUrl: 'components/home/home.html'
+        controller: 'homeCtrl', 
+        controllerUrl: 'components/home/homeCtrl.js',
+        templateUrl: 'components/home/home.html'
       }))
-      .otherwise({redirectTo: "/"});
+      .when("/domination", angularAMD.route({
+        templateUrl: 'components/domination/domination.html'
+      }))
+      .otherwise({redirectTo: "/home"})
     })
 
-    app.controller('menuCtrl',  [ "$scope", function($scope){
-
-    }]);
+    app.controller('menuCtrl', function($scope, $location){
+      $scope.menuClass = function(page) {
+        var current = $location.path().substring(1);
+        return page === current ? "active" : "";
+      };
+    });
       return angularAMD.bootstrap(app);
 
   });
