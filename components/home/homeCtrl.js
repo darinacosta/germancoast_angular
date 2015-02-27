@@ -1,9 +1,10 @@
 define(['app', 
-       'services/mapState'], 
+       'map',
+       'services/mapState',], 
 
-function(app){
+function(app, map){
 
-  app.controller('homeCtrl',  [ "$scope",  "leafletData", "mapState", function($scope, leafletData, mapState) {
+  app.controller('homeCtrl',  [ "$scope", "mapState", function($scope, mapState) {
     
     mapState.defaultState({
       'lat':30.0339,
@@ -12,7 +13,7 @@ function(app){
     });
     
     $scope.switchLocation = function(locationKey){
-      leafletData.getMap().then(function(map) {
+     
         if (locationKey === 'radial'){
         map.setView([30.269, -90.377], 15);
         }else if (locationKey === 'erosion'){
@@ -27,7 +28,7 @@ function(app){
         }else if (locationKey === 'parishline'){
           map.setView([30.032, -90.279], 14); 
         }
-      });
+    
     }
   }]);
 });

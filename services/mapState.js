@@ -1,13 +1,19 @@
-define(['app', 'leaflet'], 
-  function(app, L){
+define(['app', 'leaflet', 'map'], 
+  function(app, L, map){
 
-  return app.factory("mapState", ["leafletData", function (leafletData) {
+  return app.factory("mapState", function () {
     
     layerControl = L.control.layers(null);
+    layerControl.addTo(map);
 
-    leafletData.getMap().then(function(map){
-      layerControl.addTo(map);
-    })
+    baseMap = L.esri.basemapLayer("Imagery",{attribution:'New Orleans 2015'}),
+    imageryLabels = new L.esri.BasemapLayer('ImageryLabels'),
+
+    /*miniMap = new L.Control.MiniMap(miniMapLayer, {
+      toggleDisplay: true,
+      zoomLevelOffset:-4,
+      position: 'bottomright'
+    }).addTo(map),*/
 
 	  defaultState = function(args){
     
@@ -15,19 +21,17 @@ define(['app', 'leaflet'],
 	        lng = args['lng'],
 	        zoom = args['zoom'],  
           clearLayers = args['clearLayerControl'];
-      leafletData.getMap().then(function(map){
+  
         map.setView([lat, lng], zoom);
-      })
-    };
+      };
 
+    baseMap.addTo(map);
 
     return {
       defaultState: defaultState,
-      layerControl: layerControl
+      layerControl: layerControl,
+      labels: imageryLabels
     };
-
-    
-
 
      /* hideStaticContent();
       clearLayerControl(clearLayers);
@@ -42,6 +46,6 @@ define(['app', 'leaflet'],
       $mapHomeButton.on('click', function(){
         map.setView(new L.LatLng(lat, lng), zoom);
       });*/
-  }]);
+  });
   
 });

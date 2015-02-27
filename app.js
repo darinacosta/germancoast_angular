@@ -1,12 +1,11 @@
 define(['angularAMD', 
        'leaflet',
        'angularRoute', 
-       'angularLeafletDirective',
        'bootstrap'], 
   
   function (angularAMD, L) {
 
-    var app = angular.module("app", ["ngRoute","leaflet-directive"]);
+    var app = angular.module("app", ["ngRoute"]);
     
     app.config(function ($routeProvider) {
       $routeProvider
@@ -21,38 +20,8 @@ define(['angularAMD',
     app.controller('menuCtrl',  [ "$scope", function($scope){
 
     }]);
-    
-    app.controller('mapCtrl', ['$scope','leafletData', function($scope, leafletData){
+      return angularAMD.bootstrap(app);
+
+  });
 
 
-      angular.extend($scope, {
-      germancoast: {
-            lat: 30.0339,
-            lng: -90.4008,
-            zoom: 11
-        },
-
-        defaults: {
-          zoomControlPosition: 'topright'
-        },
-      layers: {
-        "baselayers": {
-          "xyz": {
-            "name": "OpenStreetMap (XYZ)",
-            "url": "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-            "type": "xyz",
-            "layerParams": {},
-            "layerOptions": {}
-          }
-        },
-        "overlays": {
-          
-        }
-      }
-
-    });
-  }]);
-
-  return angularAMD.bootstrap(app);
-
-});

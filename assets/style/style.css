@@ -405,10 +405,14 @@
       z-index:9999;
     }
 
-  .leaflet-container .leaflet-control-attribution{
-    color:white;
-    background-color: rgba(36, 44, 36,.7);
+  .leaflet-container{
+    background: none;
   }
+
+    .leaflet-container .leaflet-control-attribution{
+      color:white;
+      background-color: rgba(36, 44, 36,.7);
+    }
 
   .leaflet-bar a, .leaflet-bar a:hover, .leaflet-bar > a.leaflet-disabled  {
     border: none;

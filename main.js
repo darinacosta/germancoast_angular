@@ -8,15 +8,17 @@ require.config({
         'angularLeafletDirective': 'node_modules/angular-leaflet-directive/dist/angular-leaflet-directive.min',
         'bootstrap': '//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min',
         'jquery': '//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min',
+        'esriLeaflet': 'http://cdn-geoweb.s3.amazonaws.com/esri-leaflet/1.0.0-rc.3/esri-leaflet',
         'leaflet': '//cdn.leafletjs.com/leaflet-0.7.1/leaflet',
-        'minimap': './assets/plugins/minimap/Control.MiniMap',
-        'services': 'services'
+        'services': 'services',
+        'map': 'components/map'
     },
     shim: { 
       'angularAMD': ['angular'],
       'angularRoute': ['angular'],
       'angularLeafletDirective': ['angular', 'leaflet'],
-      'bootstrap': ['jquery']
+      'bootstrap': ['jquery'],
+      'map': ['leaflet', 'esriLeaflet']
     },
     deps: ['app']
 });
