@@ -1,0 +1,3332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+<Document id="atlantic_hurricane_tracks_1851_2005_NOAA_2006 selection">
+  <name>atlantic_hurricane_tracks_1851_2005_NOAA_2006 selection</name>
+  <Snippet></Snippet>
+  <Folder id="FeatureLayer0">
+    <name>atlantic_hurricane_tracks_1851_2005_NOAA_2006 selection</name>
+    <Snippet></Snippet>
+    <Placemark id="ID_00000">
+      <name>NOTNAMED</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>NOTNAMED</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>10801</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>YEAR_</td>
+<td>1915</td>
+</tr>
+<tr>
+<td>MONTH_</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DAY_</td>
+<td>22</td>
+</tr>
+<tr>
+<td>AD_TIME</td>
+<td>0600Z</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>BTID</td>
+<td>481</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>NOTNAMED</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LAT</td>
+<td>14.6</td>
+</tr>
+<tr>
+<td>LONG_</td>
+<td>-62.1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>WIND_KTS</td>
+<td>60</td>
+</tr>
+<tr>
+<td>PRESSURE</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>CAT</td>
+<td>TS</td>
+</tr>
+<tr>
+<td>BASIN</td>
+<td>North Atlantic</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>1.30384</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> -63.399997346903,14.70000182385273,0 -62.09999696540962,14.60000179506358,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00001">
+      <name>NOTNAMED</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>NOTNAMED</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>10802</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>YEAR_</td>
+<td>1915</td>
+</tr>
+<tr>
+<td>MONTH_</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DAY_</td>
+<td>22</td>
+</tr>
+<tr>
+<td>AD_TIME</td>
+<td>1200Z</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>BTID</td>
+<td>481</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>NOTNAMED</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LAT</td>
+<td>14.7</td>
+</tr>
+<tr>
+<td>LONG_</td>
+<td>-63.4</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>WIND_KTS</td>
+<td>65</td>
+</tr>
+<tr>
+<td>PRESSURE</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>CAT</td>
+<td>H1</td>
+</tr>
+<tr>
+<td>BASIN</td>
+<td>North Atlantic</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>1.2</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> -64.59999773396994,14.7000018040031,0 -63.399997346903,14.70000182385273,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00002">
+      <name>NOTNAMED</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>NOTNAMED</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>10803</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>YEAR_</td>
+<td>1915</td>
+</tr>
+<tr>
+<td>MONTH_</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DAY_</td>
+<td>22</td>
+</tr>
+<tr>
+<td>AD_TIME</td>
+<td>1800Z</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>BTID</td>
+<td>481</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>NOTNAMED</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LAT</td>
+<td>14.7</td>
+</tr>
+<tr>
+<td>LONG_</td>
+<td>-64.6</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>WIND_KTS</td>
+<td>70</td>
+</tr>
+<tr>
+<td>PRESSURE</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>CAT</td>
+<td>H1</td>
+</tr>
+<tr>
+<td>BASIN</td>
+<td>North Atlantic</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>1.204159</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> -65.79999812220181,14.80000183691853,0 -64.59999773396994,14.7000018040031,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00003">
+      <name>NOTNAMED</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>NOTNAMED</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>10804</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>YEAR_</td>
+<td>1915</td>
+</tr>
+<tr>
+<td>MONTH_</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DAY_</td>
+<td>23</td>
+</tr>
+<tr>
+<td>AD_TIME</td>
+<td>0000Z</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>BTID</td>
+<td>481</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>NOTNAMED</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LAT</td>
+<td>14.8</td>
+</tr>
+<tr>
+<td>LONG_</td>
+<td>-65.8</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>WIND_KTS</td>
+<td>70</td>
+</tr>
+<tr>
+<td>PRESSURE</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>CAT</td>
+<td>H1</td>
+</tr>
+<tr>
+<td>BASIN</td>
+<td>North Atlantic</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>1.4</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> -67.19999855239122,14.80000181664822,0 -65.79999812220181,14.80000183691853,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00004">
+      <name>NOTNAMED</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>NOTNAMED</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>10805</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>YEAR_</td>
+<td>1915</td>
+</tr>
+<tr>
+<td>MONTH_</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DAY_</td>
+<td>23</td>
+</tr>
+<tr>
+<td>AD_TIME</td>
+<td>0600Z</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>BTID</td>
+<td>481</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>NOTNAMED</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LAT</td>
+<td>14.8</td>
+</tr>
+<tr>
+<td>LONG_</td>
+<td>-67.2</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>WIND_KTS</td>
+<td>70</td>
+</tr>
+<tr>
+<td>PRESSURE</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>CAT</td>
+<td>H1</td>
+</tr>
+<tr>
+<td>BASIN</td>
+<td>North Atlantic</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>1.2</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> -68.3999989374439,14.80000180058398,0 -67.19999855239122,14.80000181664822,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00005">
+      <name>NOTNAMED</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>NOTNAMED</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>10806</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>YEAR_</td>
+<td>1915</td>
+</tr>
+<tr>
+<td>MONTH_</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DAY_</td>
+<td>23</td>
+</tr>
+<tr>
+<td>AD_TIME</td>
+<td>1200Z</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>BTID</td>
+<td>481</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>NOTNAMED</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LAT</td>
+<td>14.8</td>
+</tr>
+<tr>
+<td>LONG_</td>
+<td>-68.4</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>WIND_KTS</td>
+<td>75</td>
+</tr>
+<tr>
+<td>PRESSURE</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>CAT</td>
+<td>H1</td>
+</tr>
+<tr>
+<td>BASIN</td>
+<td>North Atlantic</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>1.403567</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> -69.79999936669225,14.90000177465105,0 -68.3999989374439,14.80000180058398,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00006">
+      <name>NOTNAMED</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>NOTNAMED</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>10807</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>YEAR_</td>
+<td>1915</td>
+</tr>
+<tr>
+<td>MONTH_</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DAY_</td>
+<td>23</td>
+</tr>
+<tr>
+<td>AD_TIME</td>
+<td>1800Z</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>BTID</td>
+<td>481</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>NOTNAMED</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LAT</td>
+<td>14.9</td>
+</tr>
+<tr>
+<td>LONG_</td>
+<td>-69.8</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>WIND_KTS</td>
+<td>75</td>
+</tr>
+<tr>
+<td>PRESSURE</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>CAT</td>
+<td>H1</td>
+</tr>
+<tr>
+<td>BASIN</td>
+<td>North Atlantic</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>1.104536</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> -70.89999969867759,15.00000181341184,0 -69.79999936669225,14.90000177465105,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00007">
+      <name>NOTNAMED</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>NOTNAMED</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>10808</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>YEAR_</td>
+<td>1915</td>
+</tr>
+<tr>
+<td>MONTH_</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DAY_</td>
+<td>24</td>
+</tr>
+<tr>
+<td>AD_TIME</td>
+<td>0000Z</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>BTID</td>
+<td>481</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>NOTNAMED</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LAT</td>
+<td>15</td>
+</tr>
+<tr>
+<td>LONG_</td>
+<td>-70.9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>WIND_KTS</td>
+<td>80</td>
+</tr>
+<tr>
+<td>PRESSURE</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>CAT</td>
+<td>H1</td>
+</tr>
+<tr>
+<td>BASIN</td>
+<td>North Atlantic</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>1.104536</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> -72.00000002939834,15.10000179292417,0 -70.89999969867759,15.00000181341184,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00008">
+      <name>NOTNAMED</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>NOTNAMED</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>10809</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>YEAR_</td>
+<td>1915</td>
+</tr>
+<tr>
+<td>MONTH_</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DAY_</td>
+<td>24</td>
+</tr>
+<tr>
+<td>AD_TIME</td>
+<td>0600Z</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>BTID</td>
+<td>481</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>NOTNAMED</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LAT</td>
+<td>15.1</td>
+</tr>
+<tr>
+<td>LONG_</td>
+<td>-72</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>WIND_KTS</td>
+<td>80</td>
+</tr>
+<tr>
+<td>PRESSURE</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>CAT</td>
+<td>H1</td>
+</tr>
+<tr>
+<td>BASIN</td>
+<td>North Atlantic</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>1.216553</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> -73.20000041132555,15.30000188320274,0 -72.00000002939834,15.10000179292417,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00009">
+      <name>NOTNAMED</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>NOTNAMED</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>10810</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>YEAR_</td>
+<td>1915</td>
+</tr>
+<tr>
+<td>MONTH_</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DAY_</td>
+<td>24</td>
+</tr>
+<tr>
+<td>AD_TIME</td>
+<td>1200Z</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>BTID</td>
+<td>481</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>NOTNAMED</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LAT</td>
+<td>15.3</td>
+</tr>
+<tr>
+<td>LONG_</td>
+<td>-73.2</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>WIND_KTS</td>
+<td>85</td>
+</tr>
+<tr>
+<td>PRESSURE</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>CAT</td>
+<td>H2</td>
+</tr>
+<tr>
+<td>BASIN</td>
+<td>North Atlantic</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>1.216553</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> -74.40000079129089,15.50000191397557,0 -73.20000041132555,15.30000188320274,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00010">
+      <name>NOTNAMED</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>NOTNAMED</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>10811</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>YEAR_</td>
+<td>1915</td>
+</tr>
+<tr>
+<td>MONTH_</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DAY_</td>
+<td>24</td>
+</tr>
+<tr>
+<td>AD_TIME</td>
+<td>1800Z</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>BTID</td>
+<td>481</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>NOTNAMED</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LAT</td>
+<td>15.5</td>
+</tr>
+<tr>
+<td>LONG_</td>
+<td>-74.4</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>WIND_KTS</td>
+<td>85</td>
+</tr>
+<tr>
+<td>PRESSURE</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>CAT</td>
+<td>H2</td>
+</tr>
+<tr>
+<td>BASIN</td>
+<td>North Atlantic</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>1.334166</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> -75.70000116120507,15.80000199486085,0 -74.40000079129089,15.50000191397557,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00011">
+      <name>NOTNAMED</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>NOTNAMED</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>10812</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>YEAR_</td>
+<td>1915</td>
+</tr>
+<tr>
+<td>MONTH_</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DAY_</td>
+<td>25</td>
+</tr>
+<tr>
+<td>AD_TIME</td>
+<td>0000Z</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>BTID</td>
+<td>481</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>NOTNAMED</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LAT</td>
+<td>15.8</td>
+</tr>
+<tr>
+<td>LONG_</td>
+<td>-75.7</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>WIND_KTS</td>
+<td>85</td>
+</tr>
+<tr>
+<td>PRESSURE</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>CAT</td>
+<td>H2</td>
+</tr>
+<tr>
+<td>BASIN</td>
+<td>North Atlantic</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>1.236932</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> -76.90000153733654,16.10000207649521,0 -75.70000116120507,15.80000199486085,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00012">
+      <name>NOTNAMED</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>NOTNAMED</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>10813</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>YEAR_</td>
+<td>1915</td>
+</tr>
+<tr>
+<td>MONTH_</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DAY_</td>
+<td>25</td>
+</tr>
+<tr>
+<td>AD_TIME</td>
+<td>0600Z</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>BTID</td>
+<td>481</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>NOTNAMED</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LAT</td>
+<td>16.1</td>
+</tr>
+<tr>
+<td>LONG_</td>
+<td>-76.9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>WIND_KTS</td>
+<td>85</td>
+</tr>
+<tr>
+<td>PRESSURE</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>CAT</td>
+<td>H2</td>
+</tr>
+<tr>
+<td>BASIN</td>
+<td>North Atlantic</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>1.456022</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> -78.30000195332073,16.50000220637235,0 -76.90000153733654,16.10000207649521,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00013">
+      <name>NOTNAMED</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>NOTNAMED</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>10814</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>YEAR_</td>
+<td>1915</td>
+</tr>
+<tr>
+<td>MONTH_</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DAY_</td>
+<td>25</td>
+</tr>
+<tr>
+<td>AD_TIME</td>
+<td>1200Z</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>BTID</td>
+<td>481</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>NOTNAMED</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LAT</td>
+<td>16.5</td>
+</tr>
+<tr>
+<td>LONG_</td>
+<td>-78.3</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>WIND_KTS</td>
+<td>90</td>
+</tr>
+<tr>
+<td>PRESSURE</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>CAT</td>
+<td>H2</td>
+</tr>
+<tr>
+<td>BASIN</td>
+<td>North Atlantic</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>0.984886</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> -79.20000223274265,16.90000227880144,0 -78.30000195332073,16.50000220637235,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00014">
+      <name>NOTNAMED</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>NOTNAMED</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>10815</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>YEAR_</td>
+<td>1915</td>
+</tr>
+<tr>
+<td>MONTH_</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DAY_</td>
+<td>25</td>
+</tr>
+<tr>
+<td>AD_TIME</td>
+<td>1800Z</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>BTID</td>
+<td>481</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>NOTNAMED</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LAT</td>
+<td>16.9</td>
+</tr>
+<tr>
+<td>LONG_</td>
+<td>-79.2</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>WIND_KTS</td>
+<td>90</td>
+</tr>
+<tr>
+<td>PRESSURE</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>CAT</td>
+<td>H2</td>
+</tr>
+<tr>
+<td>BASIN</td>
+<td>North Atlantic</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>0.984886</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> -80.10000251058905,17.30000241014756,0 -79.20000223274265,16.90000227880144,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00015">
+      <name>NOTNAMED</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>NOTNAMED</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>10816</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>YEAR_</td>
+<td>1915</td>
+</tr>
+<tr>
+<td>MONTH_</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DAY_</td>
+<td>26</td>
+</tr>
+<tr>
+<td>AD_TIME</td>
+<td>0000Z</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>BTID</td>
+<td>481</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>NOTNAMED</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LAT</td>
+<td>17.3</td>
+</tr>
+<tr>
+<td>LONG_</td>
+<td>-80.1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>WIND_KTS</td>
+<td>90</td>
+</tr>
+<tr>
+<td>PRESSURE</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>CAT</td>
+<td>H2</td>
+</tr>
+<tr>
+<td>BASIN</td>
+<td>North Atlantic</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>0.943398</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> -80.90000273736644,17.80000252998353,0 -80.10000251058905,17.30000241014756,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00016">
+      <name>NOTNAMED</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>NOTNAMED</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>10817</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>YEAR_</td>
+<td>1915</td>
+</tr>
+<tr>
+<td>MONTH_</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DAY_</td>
+<td>26</td>
+</tr>
+<tr>
+<td>AD_TIME</td>
+<td>0600Z</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>BTID</td>
+<td>481</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>NOTNAMED</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LAT</td>
+<td>17.8</td>
+</tr>
+<tr>
+<td>LONG_</td>
+<td>-80.9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>WIND_KTS</td>
+<td>90</td>
+</tr>
+<tr>
+<td>PRESSURE</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>CAT</td>
+<td>H2</td>
+</tr>
+<tr>
+<td>BASIN</td>
+<td>North Atlantic</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>0.943398</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> -81.70000296297346,18.30000264798397,0 -80.90000273736644,17.80000252998353,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00017">
+      <name>NOTNAMED</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>NOTNAMED</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>10818</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>YEAR_</td>
+<td>1915</td>
+</tr>
+<tr>
+<td>MONTH_</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DAY_</td>
+<td>26</td>
+</tr>
+<tr>
+<td>AD_TIME</td>
+<td>1200Z</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>BTID</td>
+<td>481</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>NOTNAMED</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LAT</td>
+<td>18.3</td>
+</tr>
+<tr>
+<td>LONG_</td>
+<td>-81.7</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>WIND_KTS</td>
+<td>95</td>
+</tr>
+<tr>
+<td>PRESSURE</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>CAT</td>
+<td>H2</td>
+</tr>
+<tr>
+<td>BASIN</td>
+<td>North Atlantic</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>0.943398</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> -82.50000324746617,18.80000282409876,0 -81.70000296297346,18.30000264798397,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00018">
+      <name>NOTNAMED</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>NOTNAMED</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>10819</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>YEAR_</td>
+<td>1915</td>
+</tr>
+<tr>
+<td>MONTH_</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DAY_</td>
+<td>26</td>
+</tr>
+<tr>
+<td>AD_TIME</td>
+<td>1800Z</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>BTID</td>
+<td>481</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>NOTNAMED</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LAT</td>
+<td>18.8</td>
+</tr>
+<tr>
+<td>LONG_</td>
+<td>-82.5</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>WIND_KTS</td>
+<td>95</td>
+</tr>
+<tr>
+<td>PRESSURE</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>CAT</td>
+<td>H2</td>
+</tr>
+<tr>
+<td>BASIN</td>
+<td>North Atlantic</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>0.921954</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> -83.20000342205852,19.40000292709569,0 -82.50000324746617,18.80000282409876,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00019">
+      <name>NOTNAMED</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>NOTNAMED</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>10820</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>YEAR_</td>
+<td>1915</td>
+</tr>
+<tr>
+<td>MONTH_</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DAY_</td>
+<td>27</td>
+</tr>
+<tr>
+<td>AD_TIME</td>
+<td>0000Z</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>BTID</td>
+<td>481</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>NOTNAMED</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LAT</td>
+<td>19.4</td>
+</tr>
+<tr>
+<td>LONG_</td>
+<td>-83.2</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>WIND_KTS</td>
+<td>95</td>
+</tr>
+<tr>
+<td>PRESSURE</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>CAT</td>
+<td>H2</td>
+</tr>
+<tr>
+<td>BASIN</td>
+<td>North Atlantic</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>0.921954</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> -83.90000365611823,20.0000030875218,0 -83.20000342205852,19.40000292709569,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00020">
+      <name>NOTNAMED</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>NOTNAMED</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>10821</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>YEAR_</td>
+<td>1915</td>
+</tr>
+<tr>
+<td>MONTH_</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DAY_</td>
+<td>27</td>
+</tr>
+<tr>
+<td>AD_TIME</td>
+<td>0600Z</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>BTID</td>
+<td>481</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>NOTNAMED</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LAT</td>
+<td>20</td>
+</tr>
+<tr>
+<td>LONG_</td>
+<td>-83.9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>WIND_KTS</td>
+<td>95</td>
+</tr>
+<tr>
+<td>PRESSURE</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>CAT</td>
+<td>H2</td>
+</tr>
+<tr>
+<td>BASIN</td>
+<td>North Atlantic</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>0.989949</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> -84.60000383088764,20.7000032926104,0 -83.90000365611823,20.0000030875218,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00021">
+      <name>NOTNAMED</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>NOTNAMED</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>10822</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>YEAR_</td>
+<td>1915</td>
+</tr>
+<tr>
+<td>MONTH_</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DAY_</td>
+<td>27</td>
+</tr>
+<tr>
+<td>AD_TIME</td>
+<td>1200Z</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>BTID</td>
+<td>481</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>NOTNAMED</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LAT</td>
+<td>20.7</td>
+</tr>
+<tr>
+<td>LONG_</td>
+<td>-84.6</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>WIND_KTS</td>
+<td>95</td>
+</tr>
+<tr>
+<td>PRESSURE</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>CAT</td>
+<td>H2</td>
+</tr>
+<tr>
+<td>BASIN</td>
+<td>North Atlantic</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>1.063015</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> -85.30000406697128,21.50000348108346,0 -84.60000383088764,20.7000032926104,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00022">
+      <name>NOTNAMED</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>NOTNAMED</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>10823</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>YEAR_</td>
+<td>1915</td>
+</tr>
+<tr>
+<td>MONTH_</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DAY_</td>
+<td>27</td>
+</tr>
+<tr>
+<td>AD_TIME</td>
+<td>1800Z</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>BTID</td>
+<td>481</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>NOTNAMED</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LAT</td>
+<td>21.5</td>
+</tr>
+<tr>
+<td>LONG_</td>
+<td>-85.3</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>WIND_KTS</td>
+<td>95</td>
+</tr>
+<tr>
+<td>PRESSURE</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>CAT</td>
+<td>H2</td>
+</tr>
+<tr>
+<td>BASIN</td>
+<td>North Atlantic</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>1</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> -85.90000425427384,22.30000366656639,0 -85.30000406697128,21.50000348108346,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00023">
+      <name>NOTNAMED</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>NOTNAMED</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>10824</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>YEAR_</td>
+<td>1915</td>
+</tr>
+<tr>
+<td>MONTH_</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DAY_</td>
+<td>28</td>
+</tr>
+<tr>
+<td>AD_TIME</td>
+<td>0000Z</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>BTID</td>
+<td>481</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>NOTNAMED</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LAT</td>
+<td>22.3</td>
+</tr>
+<tr>
+<td>LONG_</td>
+<td>-85.9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>WIND_KTS</td>
+<td>95</td>
+</tr>
+<tr>
+<td>PRESSURE</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>CAT</td>
+<td>H2</td>
+</tr>
+<tr>
+<td>BASIN</td>
+<td>North Atlantic</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>1.063015</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> -86.60000443115217,23.10000390624901,0 -85.90000425427384,22.30000366656639,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00024">
+      <name>NOTNAMED</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>NOTNAMED</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>10825</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>YEAR_</td>
+<td>1915</td>
+</tr>
+<tr>
+<td>MONTH_</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DAY_</td>
+<td>28</td>
+</tr>
+<tr>
+<td>AD_TIME</td>
+<td>0600Z</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>BTID</td>
+<td>481</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>NOTNAMED</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LAT</td>
+<td>23.1</td>
+</tr>
+<tr>
+<td>LONG_</td>
+<td>-86.6</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>WIND_KTS</td>
+<td>100</td>
+</tr>
+<tr>
+<td>PRESSURE</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>CAT</td>
+<td>H3</td>
+</tr>
+<tr>
+<td>BASIN</td>
+<td>North Atlantic</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>0.921954</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> -87.20000461778389,23.80000403731183,0 -86.60000443115217,23.10000390624901,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00025">
+      <name>NOTNAMED</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>NOTNAMED</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>10826</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>YEAR_</td>
+<td>1915</td>
+</tr>
+<tr>
+<td>MONTH_</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DAY_</td>
+<td>28</td>
+</tr>
+<tr>
+<td>AD_TIME</td>
+<td>1200Z</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>BTID</td>
+<td>481</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>NOTNAMED</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LAT</td>
+<td>23.8</td>
+</tr>
+<tr>
+<td>LONG_</td>
+<td>-87.2</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>WIND_KTS</td>
+<td>100</td>
+</tr>
+<tr>
+<td>PRESSURE</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>CAT</td>
+<td>H3</td>
+</tr>
+<tr>
+<td>BASIN</td>
+<td>North Atlantic</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>1.252996</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> -87.80000481438003,24.90000428573053,0 -87.20000461778389,23.80000403731183,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00026">
+      <name>NOTNAMED</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>NOTNAMED</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>12488</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>YEAR_</td>
+<td>1915</td>
+</tr>
+<tr>
+<td>MONTH_</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DAY_</td>
+<td>28</td>
+</tr>
+<tr>
+<td>AD_TIME</td>
+<td>1800Z</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>BTID</td>
+<td>481</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>NOTNAMED</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LAT</td>
+<td>24.9</td>
+</tr>
+<tr>
+<td>LONG_</td>
+<td>-87.8</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>WIND_KTS</td>
+<td>100</td>
+</tr>
+<tr>
+<td>PRESSURE</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>CAT</td>
+<td>H3</td>
+</tr>
+<tr>
+<td>BASIN</td>
+<td>North Atlantic</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>1.220656</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> -88.50000505959881,25.90000453987,0 -87.80000481438003,24.90000428573053,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00027">
+      <name>NOTNAMED</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>NOTNAMED</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>12489</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>YEAR_</td>
+<td>1915</td>
+</tr>
+<tr>
+<td>MONTH_</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DAY_</td>
+<td>29</td>
+</tr>
+<tr>
+<td>AD_TIME</td>
+<td>0000Z</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>BTID</td>
+<td>481</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>NOTNAMED</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LAT</td>
+<td>25.9</td>
+</tr>
+<tr>
+<td>LONG_</td>
+<td>-88.5</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>WIND_KTS</td>
+<td>105</td>
+</tr>
+<tr>
+<td>PRESSURE</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>CAT</td>
+<td>H3</td>
+</tr>
+<tr>
+<td>BASIN</td>
+<td>North Atlantic</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>1.081665</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> -89.10000525572458,26.80000474534829,0 -88.50000505959881,25.90000453987,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00028">
+      <name>NOTNAMED</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>NOTNAMED</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>12490</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>YEAR_</td>
+<td>1915</td>
+</tr>
+<tr>
+<td>MONTH_</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DAY_</td>
+<td>29</td>
+</tr>
+<tr>
+<td>AD_TIME</td>
+<td>0600Z</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>BTID</td>
+<td>481</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>NOTNAMED</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LAT</td>
+<td>26.8</td>
+</tr>
+<tr>
+<td>LONG_</td>
+<td>-89.1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>WIND_KTS</td>
+<td>110</td>
+</tr>
+<tr>
+<td>PRESSURE</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>CAT</td>
+<td>H3</td>
+</tr>
+<tr>
+<td>BASIN</td>
+<td>North Atlantic</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>1.16619</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> -89.70000539734321,27.80000492882794,0 -89.10000525572458,26.80000474534829,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00029">
+      <name>NOTNAMED</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>NOTNAMED</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>12491</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>YEAR_</td>
+<td>1915</td>
+</tr>
+<tr>
+<td>MONTH_</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DAY_</td>
+<td>29</td>
+</tr>
+<tr>
+<td>AD_TIME</td>
+<td>1200Z</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>BTID</td>
+<td>481</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>NOTNAMED</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LAT</td>
+<td>27.8</td>
+</tr>
+<tr>
+<td>LONG_</td>
+<td>-89.7</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>WIND_KTS</td>
+<td>115</td>
+</tr>
+<tr>
+<td>PRESSURE</td>
+<td>935</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>CAT</td>
+<td>H4</td>
+</tr>
+<tr>
+<td>BASIN</td>
+<td>North Atlantic</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>1.077033</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> -90.10000556603919,28.80000517155043,0 -89.70000539734321,27.80000492882794,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00030">
+      <name>NOTNAMED</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>NOTNAMED</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>12492</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>YEAR_</td>
+<td>1915</td>
+</tr>
+<tr>
+<td>MONTH_</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DAY_</td>
+<td>29</td>
+</tr>
+<tr>
+<td>AD_TIME</td>
+<td>1800Z</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>BTID</td>
+<td>481</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>NOTNAMED</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LAT</td>
+<td>28.8</td>
+</tr>
+<tr>
+<td>LONG_</td>
+<td>-90.1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>WIND_KTS</td>
+<td>85</td>
+</tr>
+<tr>
+<td>PRESSURE</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>CAT</td>
+<td>H2</td>
+</tr>
+<tr>
+<td>BASIN</td>
+<td>North Atlantic</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>1.1</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> -90.10000561049718,29.90000540405515,0 -90.10000556603919,28.80000517155043,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00031">
+      <name>NOTNAMED</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>NOTNAMED</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>12493</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>YEAR_</td>
+<td>1915</td>
+</tr>
+<tr>
+<td>MONTH_</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DAY_</td>
+<td>30</td>
+</tr>
+<tr>
+<td>AD_TIME</td>
+<td>0000Z</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>BTID</td>
+<td>481</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>NOTNAMED</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LAT</td>
+<td>29.9</td>
+</tr>
+<tr>
+<td>LONG_</td>
+<td>-90.1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>WIND_KTS</td>
+<td>60</td>
+</tr>
+<tr>
+<td>PRESSURE</td>
+<td>952</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>CAT</td>
+<td>TS</td>
+</tr>
+<tr>
+<td>BASIN</td>
+<td>North Atlantic</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>1.236932</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> -89.80000557985154,31.10000568464526,0 -90.10000561049718,29.90000540405515,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00032">
+      <name>NOTNAMED</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>NOTNAMED</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>12494</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>YEAR_</td>
+<td>1915</td>
+</tr>
+<tr>
+<td>MONTH_</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DAY_</td>
+<td>30</td>
+</tr>
+<tr>
+<td>AD_TIME</td>
+<td>0600Z</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>BTID</td>
+<td>481</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>NOTNAMED</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LAT</td>
+<td>31.1</td>
+</tr>
+<tr>
+<td>LONG_</td>
+<td>-89.8</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>WIND_KTS</td>
+<td>60</td>
+</tr>
+<tr>
+<td>PRESSURE</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>CAT</td>
+<td>TS</td>
+</tr>
+<tr>
+<td>BASIN</td>
+<td>North Atlantic</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>1.3</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> -89.30000551753982,32.30000590856244,0 -89.80000557985154,31.10000568464526,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00033">
+      <name>NOTNAMED</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>NOTNAMED</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>12495</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>YEAR_</td>
+<td>1915</td>
+</tr>
+<tr>
+<td>MONTH_</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DAY_</td>
+<td>30</td>
+</tr>
+<tr>
+<td>AD_TIME</td>
+<td>1200Z</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>BTID</td>
+<td>481</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>NOTNAMED</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LAT</td>
+<td>32.3</td>
+</tr>
+<tr>
+<td>LONG_</td>
+<td>-89.3</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>WIND_KTS</td>
+<td>50</td>
+</tr>
+<tr>
+<td>PRESSURE</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>CAT</td>
+<td>E</td>
+</tr>
+<tr>
+<td>BASIN</td>
+<td>North Atlantic</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>1.664332</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> -88.40000533594946,33.7000062883313,0 -89.30000551753982,32.30000590856244,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00034">
+      <name>NOTNAMED</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>NOTNAMED</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>12496</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>YEAR_</td>
+<td>1915</td>
+</tr>
+<tr>
+<td>MONTH_</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DAY_</td>
+<td>30</td>
+</tr>
+<tr>
+<td>AD_TIME</td>
+<td>1800Z</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>BTID</td>
+<td>481</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>NOTNAMED</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LAT</td>
+<td>33.7</td>
+</tr>
+<tr>
+<td>LONG_</td>
+<td>-88.4</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>WIND_KTS</td>
+<td>40</td>
+</tr>
+<tr>
+<td>PRESSURE</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>CAT</td>
+<td>E</td>
+</tr>
+<tr>
+<td>BASIN</td>
+<td>North Atlantic</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>2.193171</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> -86.80000499919592,35.20000661525297,0 -88.40000533594946,33.7000062883313,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00035">
+      <name>NOTNAMED</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>NOTNAMED</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>12497</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>YEAR_</td>
+<td>1915</td>
+</tr>
+<tr>
+<td>MONTH_</td>
+<td>10</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DAY_</td>
+<td>1</td>
+</tr>
+<tr>
+<td>AD_TIME</td>
+<td>0000Z</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>BTID</td>
+<td>481</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>NOTNAMED</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LAT</td>
+<td>35.2</td>
+</tr>
+<tr>
+<td>LONG_</td>
+<td>-86.8</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>WIND_KTS</td>
+<td>35</td>
+</tr>
+<tr>
+<td>PRESSURE</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>CAT</td>
+<td>E</td>
+</tr>
+<tr>
+<td>BASIN</td>
+<td>North Atlantic</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>2.624881</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> -84.800004533021,36.90000703889164,0 -86.80000499919592,35.20000661525297,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00036">
+      <name>NOTNAMED</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>NOTNAMED</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>12498</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>YEAR_</td>
+<td>1915</td>
+</tr>
+<tr>
+<td>MONTH_</td>
+<td>10</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DAY_</td>
+<td>1</td>
+</tr>
+<tr>
+<td>AD_TIME</td>
+<td>0600Z</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>BTID</td>
+<td>481</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>NOTNAMED</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LAT</td>
+<td>36.9</td>
+</tr>
+<tr>
+<td>LONG_</td>
+<td>-84.8</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>WIND_KTS</td>
+<td>35</td>
+</tr>
+<tr>
+<td>PRESSURE</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>CAT</td>
+<td>E</td>
+</tr>
+<tr>
+<td>BASIN</td>
+<td>North Atlantic</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>3</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> -82.40000392315926,38.70000751569303,0 -84.800004533021,36.90000703889164,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00037">
+      <name>NOTNAMED</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>NOTNAMED</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>12499</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>YEAR_</td>
+<td>1915</td>
+</tr>
+<tr>
+<td>MONTH_</td>
+<td>10</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DAY_</td>
+<td>1</td>
+</tr>
+<tr>
+<td>AD_TIME</td>
+<td>1200Z</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>BTID</td>
+<td>481</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>NOTNAMED</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LAT</td>
+<td>38.7</td>
+</tr>
+<tr>
+<td>LONG_</td>
+<td>-82.4</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>WIND_KTS</td>
+<td>35</td>
+</tr>
+<tr>
+<td>PRESSURE</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>CAT</td>
+<td>E</td>
+</tr>
+<tr>
+<td>BASIN</td>
+<td>North Atlantic</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>3.162278</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> -79.80000325511234,40.5000079928221,0 -82.40000392315926,38.70000751569303,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+  </Folder>
+  <Style id="LineStyle00">
+    <LabelStyle>
+      <color>00000000</color>
+      <scale>0.000000</scale>
+    </LabelStyle>
+    <LineStyle>
+      <color>ff74a600</color>
+      <width>1.000000</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>00000000</color>
+      <outline>0</outline>
+    </PolyStyle>
+  </Style>
+</Document>
+</kml>

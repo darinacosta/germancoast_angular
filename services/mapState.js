@@ -1,4 +1,10 @@
-define(['app', 'leaflet', 'map'], 
+/*
+*Name: mapState 
+*Description: Functions to control the state of the map
+*/
+var dependencies = ['app', 'leaflet', 'map'];
+
+define(dependencies, 
   function(app, L, map){
 
   return app.factory("mapState", function () {

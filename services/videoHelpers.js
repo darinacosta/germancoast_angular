@@ -1,6 +1,6 @@
 /*
 *Name: videoHelpers 
-*Description: Provides various helper functions for incorporating HTML5 viedo into the app
+*Description: Provides various helper functions for incorporating HTML5 video into the app
 */
 var dependencies = ['app', 'leaflet'];
 

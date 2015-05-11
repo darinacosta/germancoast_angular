@@ -15,6 +15,8 @@ define(['angularAMD',
         templateUrl: 'components/home/home.html'
       }))
       .when("/domination", angularAMD.route({
+        controller: 'dominationCtrl', 
+        controllerUrl: 'components/domination/dominationCtrl.js',
         templateUrl: 'components/domination/domination.html'
       }))
       .otherwise({redirectTo: "/home"})
@@ -25,9 +27,10 @@ define(['angularAMD',
         var current = $location.path().substring(1);
         return page === current ? "active" : "";
       };
-    });
-      return angularAMD.bootstrap(app);
-
   });
+    
+  return angularAMD.bootstrap(app);
+
+});
 
 
