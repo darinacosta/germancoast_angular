@@ -30,7 +30,7 @@ function(app, L, map){
 
     populateLayerControl = function(layers){
       compileLayerControlList();
-      angular.forEach(layers, function(alias, layer){
+      angular.forEach(layers, function(layer, alias){
         if ($.inArray(alias, layerControlList) !== false){
           layerControl.addOverlay(layer, alias);
         }
