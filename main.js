@@ -1,6 +1,7 @@
 require.config({
     baseUrl: "",    
     paths: {
+      'angular': 'node_modules/angular/angular',
       'app': 'app',
       'angularAMD': '//cdn.jsdelivr.net/angular.amd/0.2.0/angularAMD.min',
       'angularRoute': '//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-route.min',
@@ -15,10 +16,10 @@ require.config({
       'services': 'services'
     },
     shim: { 
-      'angularLeafletDirective': ['leaflet'],
+      'angularLeafletDirective': ['angular','leaflet'],
       'bootstrap': ['jquery'],
       'map': ['leaflet', 'esriLeaflet'],
       'omnivore': ['leaflet']
     },
-    deps: ['app']
+    deps: ['angular','app']
 });
