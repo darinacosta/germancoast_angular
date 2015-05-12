@@ -1,25 +1,14 @@
 /*
 *Name: mapState 
-*Description: Functions to control the state of the map
+*Description: Functions to control the map state. Anything related to the map object itself can be found in components/map.js. 
 */
-var dependencies = ['app', 'leaflet', 'map'];
+var dependencies = ['app','leaflet', 'map','esriLeaflet'];
 
 define(dependencies, 
   function(app, L, map){
 
   return app.factory("mapState", function () {
-    
-    layerControl = L.control.layers(null);
-    layerControl.addTo(map);
-
-    baseMap = L.esri.basemapLayer("Imagery",{attribution:'New Orleans 2015'}),
-    imageryLabels = new L.esri.BasemapLayer('ImageryLabels'),
-
-    /*miniMap = new L.Control.MiniMap(miniMapLayer, {
-      toggleDisplay: true,
-      zoomLevelOffset:-4,
-      position: 'bottomright'
-    }).addTo(map),*/
+    imageryLabels = new L.esri.BasemapLayer('ImageryLabels');
 
 	  defaultState = function(args){
     
@@ -31,7 +20,8 @@ define(dependencies,
         map.setView([lat, lng], zoom);
       };
 
-    baseMap.addTo(map);
+    layerControl = L.control.layers(null);
+    layerControl.addTo(map);
 
     return {
       defaultState: defaultState,

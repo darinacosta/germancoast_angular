@@ -352,11 +352,6 @@
       opacity:.8;
     }
 
-
-    .leaflet-top > .leaflet-control-zoom {
-      margin-top: 50px;
-    }
-
     .dropdown.active, .dropdown.active:hover {
       background-color: rgba(16, 16, 16,.4);
     }

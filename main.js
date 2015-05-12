@@ -12,6 +12,7 @@ require.config({
       'leaflet': '//cdn.leafletjs.com/leaflet-0.7.1/leaflet',
       'layers': 'services/layers',
       'map': 'components/map',
+      'minimap': 'lib/minimap/Control.Minimap',
       'omnivore': '//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min',
       'services': 'services'
     },

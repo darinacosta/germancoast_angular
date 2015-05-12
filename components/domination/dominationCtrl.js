@@ -2,39 +2,71 @@
 *Name: dominationCtrl 
 *Description: Controller for the 'Levee Domination' vignette
 */
-var dependencies = ['app', 'map','services/mapState', 'services/layerState', 'services/layerHelpers'];
+var dependencies = ['app', 'map', 'leaflet','omnivore', 'layers/norcoLandUse',
+                     'layers/norcolanduses_100YRFLOODPLAINDISSOLVE_v1',
+                     'layers/norcoBoundary_v1','layers/industrialFacilities',
+                     'services/mapState', 'services/layerHelpers'];
 
 define(dependencies, 
 
-function(app, map){
+function(app, map, L, omnivore, norco_landuses_general_v1,
+          norcolanduses_100YRFLOODPLAINDISSOLVE_v1,
+          norcoBoundary_v1,industrialFacilities){
 
-  app.controller('dominationCtrl',  [ "$scope", "mapState", "layerState", "layerHelpers", 
-  function($scope, mapState, layerStateCtrl, layerHelpers) {
+  app.controller('dominationCtrl',  [ "$scope", "mapState", "layerHelpers", 
+  function($scope, mapState, layerHelpers) {
     
-    var moduleLayers,
-        layers = layerStateCtrl.layers,
-        layerState = 'uninitialized',
+    var layers = {
+      'Norco Land Use': new L.geoJson(norco_landuses_general_v1,{
+        style: function (feature) {
+          return {fillColor: feature.properties.color_qgis2leaf,
+            color: '#000',
+            weight: 1,
+            opacity: 0.5,
+            fillOpacity: 0.6};
+        }
+      }),
+      'Flood Land Use': new L.geoJson(norcolanduses_100YRFLOODPLAINDISSOLVE_v1,{
+        style: function (feature) {
+          return {fillColor: feature.properties.color_qgis2leaf,
+            color: '#000',
+            weight: 1,
+            opacity: 0.5,
+            fillOpacity: 0.6};
+        }
+      }),
+      'Norco Boundary': new L.geoJson(norcoBoundary_v1,{
+        style: function (feature) {
+          return {fillColor: feature.properties.color_qgis2leaf,
+            color: 'yellow',
+            weight: 2,
+            opacity: 0.8,
+            fillOpacity: 0.2};
+        }
+      }),
+      'Shell Properties': omnivore.kml('./services/layers/shell_properties_v1.kml').on('ready', function() {
+        this.setStyle({color: "#960000",
+          fillColor: "#642800",
+          fillOpacity: 0.6,
+          weight: 1});
+      }),
+      'Industrial Facilities': new L.geoJson(industrialFacilities,{
+        onEachFeature: function(feature, layer) {
 
-    initializeLayers = function(callback){
-      if (layerState === 'uninitialized'){
-        //lazy-loading layers
-        layerStateCtrl.initializeDevelopmentLayers(true, function(){
-          moduleLayers = {
-            'Norco Land Use': layers['norcoLandUse'],
-            'Flood Land Use': layers['floodLandUse'],
-            'Norco Boundary': layers['norcoBoundary'],
-            'Industrial Facilities': layers['industrialFacilities'],
-            'Shell Properties': layers['shellProperties']
-          };
-          layerHelpers.populateLayerControl(moduleLayers);
-          layerState = 'initialized';
-          callback();
-        })
-      }else{
-        layerHelpers.populateLayerControl(moduleLayers);
-        callback();
-      }
+          var popupContent = '<b>' + feature.properties.FACILITY + '</b>';
+          
+          layer.bindPopup(popupContent);
+        },
+        style: function (feature) {
+          return {color: "#960000",
+            fillColor: "#642800",
+            fillOpacity: 0.4,
+            weight: 1}
+          }
+      })
     };
+      
+    
         
     mapState.defaultState({
       'lat':30.0039,
@@ -42,16 +74,15 @@ function(app, map){
       'zoom':12,
     });
 
-    initializeLayers(function(){
-      console.log('More soon.')
-    });
+    layerHelpers.populateLayerControl(layers);
+
 
 
     
     /*$scope.switchLocation = function(locationKey){
      
         if (locationKey === 'radial'){
-        map.setView([30.269, -90.377], 15);
+          map.setView([30.269, -90.377], 15);
         }else if (locationKey === 'erosion'){
           map.setView([30.046, -90.330], 14);
         } else if (locationKey === 'ej'){
