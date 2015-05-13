@@ -5,12 +5,11 @@
 
 var dependencies = ['app', 'jquery','leaflet', 'map', 'services/mapState', 'services/layerState', 'angular'];
 
-//Define AMD Module
 define(dependencies, layerHelpersFactory);
 
 function layerHelpersFactory(app, $, L, map){
   return app.factory("layerHelpers", ["layerState", "mapState", layerHelpers]);
-}
+};
 
 function layerHelpers(layerState, mapState){
   var service = {},
