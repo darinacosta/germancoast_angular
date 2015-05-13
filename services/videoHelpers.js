@@ -12,7 +12,7 @@ function(app, L){
 
     var service = {},
 
-    detectHtml5Support = function(){
+    _detectHtml5Support = function(){
       function supports_video() {
         return !!document.createElement('video').canPlayType;
       };
@@ -46,7 +46,7 @@ function(app, L){
     
     //Use this to serve animated GIFs hosted on S3.
     service.returnVideoString = function(video){
-      if (detectHtml5Support() !== false){
+      if (_detectHtml5Support() !== false){
         var videoString = '<video muted style="width:100%;" autoplay="autoplay" loop=""><source src="https://s3-us-west-2.amazonaws.com/darinacostamediafiles/video/'+video+'.webm" type="video/webm"><source src="https://s3-us-west-2.amazonaws.com/darinacostamediafiles/video/'+video+'.ogv" type="video/ogg">Your browser does not support the video tag.</video>';
         return videoString
       }else{
@@ -64,7 +64,7 @@ function(app, L){
     });
 
     return service;
-    
+
   });
   
 });
