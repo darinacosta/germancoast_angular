@@ -8,26 +8,23 @@ define(dependencies,
   function(app, L, map){
 
   return app.factory("mapState", function () {
-    imageryLabels = new L.esri.BasemapLayer('ImageryLabels');
-
-	  defaultState = function(args){
     
+    var service = {};
+
+    service.imageryLabels = new L.esri.BasemapLayer('ImageryLabels');
+
+	  service.defaultState = function(args){
       var lat = args['lat'],
 	        lng = args['lng'],
 	        zoom = args['zoom'],  
           clearLayers = args['clearLayerControl'];
-  
-        map.setView([lat, lng], zoom);
-      };
-
-    layerControl = L.control.layers(null);
-    layerControl.addTo(map);
-
-    return {
-      defaultState: defaultState,
-      layerControl: layerControl,
-      labels: imageryLabels
+      map.setView([lat, lng], zoom);
     };
+
+    service.layerControl = L.control.layers(null);
+    service.layerControl.addTo(map);
+
+    return service;
 
      /* hideStaticContent();
       clearLayerControl(clearLayers);
