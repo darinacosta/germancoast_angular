@@ -6,7 +6,7 @@ var dependencies = ['app','leaflet', 'map','esriLeaflet'];
 
 define(dependencies, mapStateFactory);
 
-function mapstateFactory(app, L, map){
+function mapStateFactory(app, L, map){
   return app.factory("mapState", mapState);
 }
 

@@ -9,7 +9,7 @@ var dependencies = ['app', 'map', 'leaflet','omnivore', 'layers/norcoLandUse',
 
 define(dependencies, 
 
-function(app, map, L, omnivore, norco_landuses_general_v1,
+  function(app, map, L, omnivore, norco_landuses_general_v1,
           norcolanduses_100YRFLOODPLAINDISSOLVE_v1,
           norcoBoundary_v1,industrialFacilities){
 

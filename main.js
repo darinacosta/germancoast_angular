@@ -7,6 +7,7 @@ require.config({
       'angularRoute': '//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-route.min',
       'angularLeafletDirective': 'node_modules/angular-leaflet-directive/dist/angular-leaflet-directive.min',
       'bootstrap': '//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min',
+      'components': 'components',
       'esriLeaflet': 'http://cdn-geoweb.s3.amazonaws.com/esri-leaflet/1.0.0-rc.3/esri-leaflet',
       'jquery': '//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min',
       'leaflet': '//cdn.leafletjs.com/leaflet-0.7.1/leaflet',
