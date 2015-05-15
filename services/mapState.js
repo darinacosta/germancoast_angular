@@ -8,19 +8,20 @@ define(dependencies, mapStateFactory);
 
 function mapStateFactory(app, L, map){
   return app.factory("mapState", mapState);
+
+  function mapState() {
+    var service = {};
+    service.imageryLabels = new L.esri.BasemapLayer('ImageryLabels');
+    service.defaultState = function(args){
+      var lat = args['lat'],
+          lng = args['lng'],
+          zoom = args['zoom'],  
+          clearLayers = args['clearLayerControl'];
+      map.setView([lat, lng], zoom);
+    };
+    service.layerControl = L.control.layers(null);
+    service.layerControl.addTo(map);
+    return service;
+  }
 }
 
-function mapState() {
-  var service = {};
-  service.imageryLabels = new L.esri.BasemapLayer('ImageryLabels');
-  service.defaultState = function(args){
-    var lat = args['lat'],
-        lng = args['lng'],
-        zoom = args['zoom'],  
-        clearLayers = args['clearLayerControl'];
-    map.setView([lat, lng], zoom);
-  };
-  service.layerControl = L.control.layers(null);
-  service.layerControl.addTo(map);
-  return service;
-}

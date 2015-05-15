@@ -24,7 +24,7 @@ function(app, map){
         } else if (locationKey === 'ej'){
           map.setView([29.99958087, -90.414], 14);
           videoEventPopup.setLatLng([29.99958087, -90.397052]);
-          videoEventPopup.setContent(returnVideoString('norco_flaring_v1'));
+          videoEventPopup.setContent(videoHelpers.returnVideoString('norco_flaring_v1'));
           videoEventPopup.openOn(map);
         }else if (locationKey === 'floodplain'){
           map.setView([30.088, -90.446], 14);
