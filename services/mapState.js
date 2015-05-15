@@ -10,7 +10,7 @@ function mapStateFactory(app, L, map){
   return app.factory("mapState", mapState);
 }
 
-function mapstate() {
+function mapState() {
   var service = {};
   service.imageryLabels = new L.esri.BasemapLayer('ImageryLabels');
   service.defaultState = function(args){
