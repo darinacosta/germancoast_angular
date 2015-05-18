@@ -33,27 +33,12 @@ module.exports = function(grunt) {
     requirejs: {
       compile: {
         options: {
-          baseUrl: '.',
+          baseUrl: './',
           mainConfigFile: 'main.js',
-          removeCombined: true,
-          findNestedDependencies: true,
-          paths: {
-            'angular': 'empty:',
-            'app': 'app',
-            'angularAMD': 'empty:',
-            'angularRoute': 'empty:',
-            'angularLeafletDirective': 'empty:',
-            'bootstrap': 'empty:',
-            'components': 'components/**/*.js',
-            'esriLeaflet': 'empty:',
-            'jquery': 'empty:',
-            'leaflet': 'empty:',
-            'layers': 'empty:',
-            'map': 'components/map',
-            'minimap': 'empty:',
-            'omnivore': 'empty:',
-            'services': 'services'
-        },
+          done: function(done,output) {
+            console.log(output)
+          },
+          include: ['main'],
           name: "app",
           out: "./app.min.js"
         }

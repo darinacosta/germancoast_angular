@@ -65,8 +65,6 @@ define(dependencies,
           }
       })
     };
-      
-    
         
     mapState.defaultState({
       'lat':30.0039,

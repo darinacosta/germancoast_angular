@@ -1,4 +1,8 @@
 {
+  "name": "germancoast_angular",
+  "version": "0.1",
+  "description": "A redevelopment of the German Coast web application using Angular.",
+  "author": "Darin Acosta <darinjacosta@gmail.com>",
   "engines": {
     "node": ">= 0.10.0"
   },
