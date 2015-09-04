@@ -23,11 +23,13 @@ function layerHelpersFactory(app, $, L, map){
         }
       });
     };
+
     service.hideAllLayers = function(){
       angular.forEach(layerState.layers, function(key, val) {
         map.removeLayer(layerState.layers[key])
       });
     };
+
     service.populateLayerControl = function(layers){
       _compileLayerControlList();
       console.log(layerControlList)
@@ -37,13 +39,16 @@ function layerHelpersFactory(app, $, L, map){
         }
       })
     };
+
     service.selectPolyOnClick = function(args){
-      var targetLayer = args['targetLayer'],
+
+      var targetLayer   = args['targetLayer'],
           selectedColor = args['selectedColor'],
-          selectedFill = args['selectedFill'],
+          selectedFill  = args['selectedFill'],
           originalColor = args['originalColor'],
-          originalFill = args['originalFill'],
-          zoom = args['zoom'] !== 'undefined' ? args['zoom'] : 13,
+          originalFill  = args['originalFill'],
+          zoom          = args['zoom'] !== 'undefined' ? args['zoom'] : 13,
+
       //This prevents click events from being applied twice
       activationState = (function(){
         if (selectPolyInitializedLayers.indexOf(targetLayer) == -1){
@@ -53,11 +58,13 @@ function layerHelpersFactory(app, $, L, map){
           return true;
         }
       })();
+
       //Reset potential style changes
       targetLayer.setStyle({
         color: originalColor,
         fillColor: originalFill
       });
+
       function _handleLayerClick(e){
         var targetPoly = e.layer,
           clickLocation = [e.latlng['lat'],e.latlng['lng']];
@@ -72,6 +79,7 @@ function layerHelpersFactory(app, $, L, map){
         });
         map.setView(clickLocation, zoom);
       };
+      
       //If the layer has already been initialized, pass.
       if (activationState === false){
         targetLayer.on("click", _handleLayerClick);

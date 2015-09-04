@@ -11,6 +11,7 @@ function mapStateFactory(app, L, map){
 
   function mapState() {
     var service = {};
+    
     service.imageryLabels = new L.esri.BasemapLayer('ImageryLabels');
     service.defaultState = function(args){
       var lat = args['lat'],
@@ -19,8 +20,11 @@ function mapStateFactory(app, L, map){
           clearLayers = args['clearLayerControl'];
       map.setView([lat, lng], zoom);
     };
-    service.layerControl = L.control.layers(null);
+
+    //This needs to be moved somewhere with universal scope or something -- figure it out!
+    service.layerControl = L.control.layers({},{labels: service.imageryLabels});
     service.layerControl.addTo(map);
+    
     return service;
   }
 }

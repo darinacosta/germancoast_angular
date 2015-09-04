@@ -7,15 +7,17 @@ var dependencies = ['app', 'map', 'leaflet','omnivore', 'layers/norcoLandUse',
                      'layers/norcoBoundary_v1','layers/industrialFacilities',
                      'services/mapState', 'services/layerHelpers'];
 
-define(dependencies, 
+define(dependencies, dominationCtrl);
 
-  function(app, map, L, omnivore, norco_landuses_general_v1,
+function dominationCtrl(app, map, L, omnivore, norco_landuses_general_v1,
           norcolanduses_100YRFLOODPLAINDISSOLVE_v1,
           norcoBoundary_v1,industrialFacilities){
 
   app.controller('dominationCtrl',  [ "$scope", "mapState", "layerHelpers", dominationCtrl]);
 
   function dominationCtrl($scope, mapState, layerHelpers) {
+    $scope.switchLocation = switchLocation;
+
     var layers = {
       'Norco Land Use': new L.geoJson(norco_landuses_general_v1,{
         style: function (feature) {
@@ -52,9 +54,7 @@ define(dependencies,
       }),
       'Industrial Facilities': new L.geoJson(industrialFacilities,{
         onEachFeature: function(feature, layer) {
-
           var popupContent = '<b>' + feature.properties.FACILITY + '</b>';
-          
           layer.bindPopup(popupContent);
         },
         style: function (feature) {
@@ -74,13 +74,32 @@ define(dependencies,
 
     layerHelpers.populateLayerControl(layers);
 
+    layerHelpers.selectPolyOnClick({
+        targetLayer: layers['Industrial Facilities'], 
+        selectedColor: 'rgb(200,200,0)', 
+        selectedFill: 'rgb(130,150,0)', 
+        originalColor: '#960000', 
+        originalFill: '#642800'
+    })
 
+    /*configureLayers = (function(){
+      if (layerState === 'initialized'){
 
-    
-    /*$scope.switchLocation = function(locationKey){
-     
-        if (locationKey === 'radial'){
-          map.setView([30.269, -90.377], 15);
+        layerHelpers.selectPolyOnClick({
+          targetLayer: layers['Industrial Facilities'], 
+          selectedColor: 'rgb(200,200,0)', 
+          selectedFill: 'rgb(130,150,0)', 
+          originalColor: '#960000', 
+          originalFill: '#642800'
+        });
+
+      }
+    })();*/
+
+    function switchLocation(locationKey){
+        if (locationKey === 'levee-domination'){
+          map.setView([30.0039, -90.4108], 13);
+          layers['Industrial Facilities'].addTo(map);
         }else if (locationKey === 'erosion'){
           map.setView([30.046, -90.330], 14);
         } else if (locationKey === 'ej'){
@@ -94,9 +113,9 @@ define(dependencies,
           map.setView([30.032, -90.279], 14); 
         }
     
-    }*/
+    }
   }
 
-});
+}
 
 

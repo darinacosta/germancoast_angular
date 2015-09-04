@@ -13,6 +13,7 @@ define(['leaflet',
 
     baseMap = L.esri.basemapLayer("Imagery",{attribution:'New Orleans 2015'}),
     miniMapLayer = new L.esri.basemapLayer("Imagery",{attribution:'Basemap: ESRI'}),
+
     zoomControl =  L.control.zoom({
       position:'topright'
     }),
